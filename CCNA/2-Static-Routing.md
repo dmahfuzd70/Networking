@@ -10,11 +10,11 @@
     ->(config-if)#no shut
 
 
-    Route config:
+### Route config:
 
     ->(config-if)#ip route 50.0.0.0(Desire Network) 255.0.0.0 40.0.0.2(Via)
 
-    Default Routing:
+### Default Routing:
     ->(config-if)#ip route 0.0.0.0(Desire Network) 0.0.0.0 40.0.0.2(Via)
 
     ->#sh ip route(To check Route status)
